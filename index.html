@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev tutorial</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.jpeg">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <marquee behavior="alternate" class="box" direction="down">
+        <marquee behavior="alternate">
+            <div class="ball"></div>
+        </marquee>
+    </marquee>
+
+    <h2>Forms</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                <label for="firstname">Firstname:</label>
+                <input type="text" placeholder="Firstname" name="firstname" id="firstname" required/>
+            </div>
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" placeholder="Lastname" name="lastname" id="lastname" required/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" required/>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password" name="password" id="password" required/>
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" required/>
+            </div>
+            <div>
+                <p>Gender:</p>
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" id="male" value="male" required/>
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" id="female" value="female" required/>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Recreational Information</legend>
+            <div>
+                <label for="color">Best Color:</label>
+                <input type="color" placeholder="Best Color" name="color" id="color"/>
+            </div>
+            <div>
+                <p>Hobbies:</p>
+                <label for="reading">Reading:</label>
+                <input type="checkbox" name="hobbies" id="reading"/>
+                <label for="swimming">Swimming:</label>
+                <input type="checkbox" name="hobbies" id="swimming"/>
+                <label for="dancing">Dancing:</label>
+                <input type="checkbox" name="hobbies" id="dancing"/>
+                <label for="singing">Singing:</label>
+                <input type="checkbox" name="hobbies" id="singing"/>
+                <label for="fighting">Fighting:</label>
+                <input type="checkbox" name="hobbies" id="fighting"/>
+                <label for="drawing">Drawing:</label>
+                <input type="checkbox" name="hobbies" id="drawing"/>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>About Information</legend>
+            <div>
+                <label for="state">State of Origin:</label>
+                <select name="state" id="state">
+                    <option value="">Select State</option>
+                    <option value="lagos">Lagos</option>
+                    <option value="ogun">Ogun</option>
+                    <option value="oyo">Oyo</option>
+                    <option value="ondo">Ondo</option>
+                </select>
+            </div>
+            <div>
+                <label for="bio">Biography:</label><br />
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Biography">This is my Biography</textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Action</legend>
+            <div>
+                <input type="reset" value="Reset"/>
+                <input type="submit" value="Submit"/>
+            </div>
+            
+        </fieldset>
+        
+    </form>
+</body>
+</html>
