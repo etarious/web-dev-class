@@ -2,3 +2,11 @@ Assignment - 20/08/2026
 
 * Create your own form, and style it to look good (We haven't done it yet, but go and read about it and implement it in your own form. You can check online for any form design and use).
 * Read about HTML Tables
+
+
+
+Assignment - 01/09/2026
+
+* Create gallery that I can scroll through horizontally.
+* Create a gallery grid of 10 - 15 pictures.
+* Create a Photo collage of 6 square images inside a div.

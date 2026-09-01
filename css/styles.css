@@ -14,3 +14,116 @@
     background-color: red;
     border-radius:100%
 }
+
+.float {
+    float: left;
+    margin-top: -30px
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.flex-box{
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: red;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+    /* max-width: 200px; */
+}
+
+.grid-container{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap:10px;
+}
+
+.grid-box{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    /* margin: 10px; */
+}
+
+.position-container{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.position-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.position-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.position-bottom-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.position-center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sticky-container{
+    position: relative;
+    height: 200px;
+    /* overflow-y: scroll; */
+    background-color: lightgray;
+}
+
+.position-sticky{
+    position: sticky;
+    top: 0;
+}
+
+.stuff {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .stuff {
+        background-color: red;
+        color: yellow;
+        display: none;
+    }
+
+    .grid-box{
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .stuff {
+        background-color: blue;
+        color: white;
+    }
+
+    .grid-box{
+        background-color: orange;
+    }
+}
