@@ -15,3 +15,14 @@
 * Read about Operators.
 * Read about Decisions and Loops.
 * Alert(), Confirm(), and Prompt() functions.
+
+
+
+
+
+## Assignment - 07/09/2026
+* Create a program that checks if a word is a palidrom or not.
+* Do the FizzBuzz program.
+* Write a program that prints all even numbers from 1-100
+* Write a program that prints all odd numbers from 1-100
+* Write a countdown program that determines the D-day within the week.
