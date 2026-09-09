@@ -26,3 +26,11 @@
 * Write a program that prints all even numbers from 1-100
 * Write a program that prints all odd numbers from 1-100
 * Write a countdown program that determines the D-day within the week.
+
+
+
+
+## Assignment - 09/09/2026
+* Read on functions.
+* Study the D-day countdown assignment and redo your own. And then add how many days ago the D-day has passed.
+* Create a color game that is going to accept a color from the user and then tell the user what type of color it is, if it's a primary or secondary or tertiary color.

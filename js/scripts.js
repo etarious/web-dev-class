@@ -95,15 +95,169 @@
 
 // LOOPS... 
 
-let x = 0;
+// let x = 0;
 
-while (x <= 10) {
-    console.log(x);
+// while (x <= 10) {
+//     console.log(x);
 
-    x++;
-}
+//     x++;
+// }
 
 // do {
 //     console.log(x);
 //     x++;
 // } while (x <= 10);
+
+
+
+
+// ARRAYS...
+
+let fruits = ['Apple', 'Mango', 'Orange', 'Guava'];
+
+console.log(fruits);
+
+fruits[4] = "Watermelon";
+
+console.log(fruits);
+
+fruits[2] = "Banana";
+
+console.log(fruits);
+
+
+for (let i = 0; i < fruits.length; i++) {
+    const fruit = fruits[i];
+    
+    console.log(fruit);
+    
+}
+
+
+
+
+
+
+// ASSIGNMENT SOLUTION
+/**
+ * ===================================
+ * Palindrome Assignment
+ * ===================================
+*/
+
+
+// Get the word from the user...
+// let word = prompt("Enter a word to check if it is a palindrome or not");
+// let newWord = word.toLowerCase();
+
+// // console.log(typeof word);
+// let error = false;
+
+// // Check if the input was empty...
+
+// if (word == null || word == "") {
+//     error = true;
+
+//     alert("Empty input not allowed, please try again!");
+// }
+
+
+// if (!error) {
+//     // There was no error...
+
+//     let reversedWord = newWord.split("").reverse().join("");
+
+//     if (newWord === reversedWord) {
+//         // console.log(`${word} is is palindrome.`);
+//         console.log('"' + word + '"' + " is a palindrome");
+                
+//     } else {
+//         console.log('"' + word + '"' + " is not a palindrome");
+        
+//     }
+    
+// }
+
+
+
+
+
+/**
+ * ===================================
+ * D-day Assignment
+ * ===================================
+*/
+
+// Collect data from the user...
+// let dday = prompt("Enter the D-day:");
+// let dow = prompt("Enter the day of the week:");
+
+// // Convert data to lowercase...
+// dday = dday.toLowerCase();
+// dow = dow.toLowerCase();
+
+// // Validate data for errors...
+// let error = false;
+
+// if (dday == null || dday == "") {
+//     error = true;
+
+//     alert("Empty D-day input, please try again. 😠");
+// }
+
+
+// if (dow == null || dow == "") {
+//     error = true;
+
+//     alert("Empty day of the week input, please try again. 😠");
+// }
+
+// // Check if any errors...
+// if (!error) {
+//     // let daysOfWeek = array("Sunday", ...)
+
+//     // No error, continue...
+//     let daysOfWeek = [
+//         "sunday",
+//         "monday",
+//         "tuesday",
+//         "wednesday",
+//         "thursday",
+//         "friday",
+//         "saturday"
+//     ]
+
+
+//     if (dday == dow) {
+//         // Checking if the day of the week is today...
+//         alert("D-day is today. 🎉");
+//     } else if (!daysOfWeek.includes(dow) || !daysOfWeek.includes(dday)) {
+//         // Checking if the day of the week is an actual day of week...
+//         alert("Invalid day of week or D-day. 😠")
+//     } else {
+//         // Moving on with the program...
+//         for (let i = 0; i < daysOfWeek.length; i++) {
+//             const day = daysOfWeek[i];
+
+//             if (day == dow) {
+//                 // Checking how many days of the week are left to the D-day...
+//                 let indexdow = daysOfWeek.indexOf(dow);
+//                 let indexdday = daysOfWeek.indexOf(dday);
+
+//                 let distance = indexdday - indexdow;
+
+//                 alert(`${distance} day(s) to do. 😊`)
+//                 break;
+//             } 
+            
+//             if (day == dday) {
+//                 // Checking if the D-day has passed...
+//                 alert("The D-day has passed. 😢");
+//                 break;
+//             }
+//         }
+//     }
+// }
+
+
+
