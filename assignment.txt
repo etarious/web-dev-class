@@ -34,3 +34,10 @@
 * Read on functions.
 * Study the D-day countdown assignment and redo your own. And then add how many days ago the D-day has passed.
 * Create a color game that is going to accept a color from the user and then tell the user what type of color it is, if it's a primary or secondary or tertiary color.
+
+
+
+
+## Assignment - 16/09/2026
+* Put all the tasks we did the scripts.js file in there individual functions and comment the calls, so we don't have to comment the entire codes for it not to work.
+* Read about Object-Oriented Paradigm

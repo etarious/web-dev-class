@@ -113,25 +113,25 @@
 
 // ARRAYS...
 
-let fruits = ['Apple', 'Mango', 'Orange', 'Guava'];
+// let fruits = ['Apple', 'Mango', 'Orange', 'Guava'];
 
-console.log(fruits);
+// console.log(fruits);
 
-fruits[4] = "Watermelon";
+// fruits[4] = "Watermelon";
 
-console.log(fruits);
+// console.log(fruits);
 
-fruits[2] = "Banana";
+// fruits[2] = "Banana";
 
-console.log(fruits);
+// console.log(fruits);
 
 
-for (let i = 0; i < fruits.length; i++) {
-    const fruit = fruits[i];
+// for (let i = 0; i < fruits.length; i++) {
+//     const fruit = fruits[i];
     
-    console.log(fruit);
+//     console.log(fruit);
     
-}
+// }
 
 
 
@@ -261,3 +261,85 @@ for (let i = 0; i < fruits.length; i++) {
 
 
 
+// FUNCTIONS
+
+// function getFullname(){
+//     let firstname = prompt("Enter your firstname:");
+//     let lastname = prompt("Enter your lastname:");
+
+//     let userFullname = fullname(firstname, lastname);
+
+//     console.log(userFullname);
+
+
+//     // Callback function...
+//     let tryagain = confirm("Do you want to try again?");
+
+//     if (tryagain) {
+//         getFullname(); // This is the actual callback...
+//     } else {
+//         alert("Thank you for using this program. 😊");
+//     }
+// }
+
+// getFullname();
+
+// Arrow Function...
+// const fullname = (firstname, lastname) => {
+//     // return firstname + " " + lastname;
+
+//     return `Your fullname is ${firstname} ${lastname}`;
+
+//     // console.log(`Your fullname is ${firstname} ${lastname}`);
+// }
+
+
+// Function Declaration...
+// function fullname (firstname, lastname) {
+//     // return firstname + " " + lastname;
+
+//     return `Your fullname is ${firstname} ${lastname}`;
+
+//     // console.log(`Your fullname is ${firstname} ${lastname}`);
+// }
+
+
+// Function Expression...
+// let fullname = function (firstname, lastname) {
+//     // return firstname + " " + lastname;
+
+//     return `Your fullname is ${firstname} ${lastname}`;
+
+//     // console.log(`Your fullname is ${firstname} ${lastname}`);
+// }
+
+// let userFullname = fullname("John", "Paul");
+
+// console.log(userFullname);
+
+// fullname(firstname, lastname);
+
+
+// getFullname();
+
+
+// Ananymous Function...
+// setTimeout(function () {
+//     console.log("This is an ananymous function");
+//     console.log("This is another line");
+    
+// }, 5000);
+
+
+
+
+// Document Object Model (DOM)...
+
+// console.log(document);
+
+let media = document.getElementById("media");
+media.innerText = "This is the changes media query";
+media.style.fontSize = "50px";
+
+let box = document.getElementsByClassName("grid-box");
+console.log(box[0]);
