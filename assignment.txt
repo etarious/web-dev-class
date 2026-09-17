@@ -41,3 +41,9 @@
 ## Assignment - 16/09/2026
 * Put all the tasks we did the scripts.js file in there individual functions and comment the calls, so we don't have to comment the entire codes for it not to work.
 * Read about Object-Oriented Paradigm
+
+
+
+## Assignment - 17/09/2026
+* Make the Fan class to be flexiblet for both Standing and ceiling fans to be able to rotate.
+* Create a user application that stores users, finds a user and asks to display the user's detail, shows all users, and clear the page. All these should be on the triggered by their individual buttons.
