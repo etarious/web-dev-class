@@ -2,7 +2,7 @@ function checkUsernameExists (users, username) {
     // console.log(users);
     
     if (users.length > 0) {
-        console.log("Users is not empty");
+        // console.log("Users is not empty");
         
         for (let i = 0; i < users.length; i++) {
             const user = users[i];
@@ -14,7 +14,7 @@ function checkUsernameExists (users, username) {
             }
         }
     } else {
-        console.log("Users is empty");
+        // console.log("Users is empty");
         
         return false;
     }

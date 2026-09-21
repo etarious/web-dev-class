@@ -61,7 +61,7 @@ function findUser() {
 
         let user = checkUsernameExists(users, username);
 
-        console.log(user);
+        // console.log(user);
         
 
         if (user) {
