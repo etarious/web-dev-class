@@ -45,5 +45,13 @@
 
 
 ## Assignment - 17/09/2026
-* Make the Fan class to be flexiblet for both Standing and ceiling fans to be able to rotate.
+* Make the Fan class to be flexible for both Standing and ceiling fans to be able to rotate.
 * Create a user application that stores users, finds a user and asks to display the user's detail, shows all users, and clear the page. All these should be on the triggered by their individual buttons.
+
+
+
+
+
+## Assignment - 21/09/2026
+* Add an edit user profile to the users appication assignment.
+* Make the users data to persist even after reloading the page.

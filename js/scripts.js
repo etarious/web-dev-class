@@ -385,52 +385,52 @@ bgWhite.onclick =function () {
 class Fan {
     #coil = "Aluminium"; // Encapsulation
 
-    constructor(brand, model, size, color) {
+    constructor(brand, model, size, color, isRotate) {
         this.brand = brand;
         this.model = model;
         this.size = size;
         this.color = color;
+        this.rotate = this.rotate;
     }
 
     blow (speed) {
         console.log(`Your ${this.brand} fan is blowing at speed ${speed}.`);
     }
-}
-
-class StandingFan extends Fan {
-
-    constructor (brand, model, size, color) {
-        super(brand, model, size, color);
-        this.isRotate = true;
-    }
 
     rotate (deg) {
         if (this.isRotate) {
             console.log(`Your ${this.brand} fan is rotating at angle ${deg} degree.`);
+        } else {
+            console.log("Ceiling fans don't rotate");
         }
     }
 }
 
-class CeilingFan extends Fan {
-    
-    constructor (brand, model, size, color) {
-        super(brand, model, size, color);
-        this.isRotate = false;
-    }
+class StandingFan extends Fan {
 
-    rotate () {
-        if (!this.isRotate) {
-            console.log("Ceiling fans don't rotate");
-            
-        }
+    fanLocation () {
+        console.log(`Your ${this.color} ${this.brand} fan is standing somewhere around.`);
+        
     }
+    
+}
+
+class CeilingFan extends Fan {
+
+    fanLocation () {
+        console.log(`Your ${this.color} ${this.brand} fan is hanged on the cieling.`);
+        
+    }
+    
 }
 
 let ox = new StandingFan("Ox", "AD23", 15, "Black");
 
 let giant = new CeilingFan("Giant", "CE62", "Big", "White")
 
-console.log(ox.rotate(45));
+console.log(ox.fanLocation());
 console.log(giant.rotate(45));
 console.log(ox.coil);
+
+
 
