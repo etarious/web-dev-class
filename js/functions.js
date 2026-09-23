@@ -26,7 +26,7 @@ function checkUsernameExists (users, username) {
 
 function validateInput (data) {
 
-    data = data.trim();
+    if (data) {data = data.trim()};
     
     if (data == null || data == undefined || data == "") {
         return false;
